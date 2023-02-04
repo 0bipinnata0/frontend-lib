@@ -8,3 +8,5 @@ const init = (option?: { key: string; value: string }) => {
 
   console.info(`初始化成功{${key}: ${value}}`);
 };
+
+export default init;
