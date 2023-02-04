@@ -5,7 +5,6 @@ const init = (option?: { key: string; value: string }) => {
   }
 
   const { key, value } = option;
-
   console.info(`初始化成功{${key}: ${value}}`);
 };
 
